@@ -28,9 +28,6 @@ function checkHour() {
     })
 }
 
-// moment(data.date, 'X').format('L')
-//https://api.openweathermap.org/data/2.5/onecall?lat=33.44&lon=-94.04&exclude=hourly,daily&appid={API key}&units=imperial
-
 checkHour()
 
 setInterval(checkHour, 15000)
@@ -59,32 +56,6 @@ for(i = 9; i < 17; i++) {
 // console.log(dailyTaskList);
 
 // // Save input text and print to page
-
-
-// // Change color of rows depending on current hour
-
-// var currentHour = moment().format("h");
-// var allHourOptions = "array of all hour rows"
-
-// for (i = 0; i < hourOptions.length; i++) {
-//     var hourRow = allHourOptions[i];
-
-//     if (hourRow === currentHour) {
-
-//         // set class to .present
-
-//     } else if (hourRow > currentHour) {
-
-//         // set class to .future
-
-//     } else {
-
-//         // set class to .past
-
-//     }
-
-// }
-
 
 
 
